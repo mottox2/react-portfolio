@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { colors, poppins } from "./styleHelper";
 
 const Base = styled.header`
   position: absolute;
@@ -14,7 +15,7 @@ const Base = styled.header`
   margin: 0 auto;
   padding: 0 15px;
   color: white;
-  font-family: "Poppins", sans-serif;
+  ${poppins}
 `;
 
 const Title = styled.h1`
